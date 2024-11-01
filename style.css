@@ -1,0 +1,29 @@
+
+.main{
+    background-image: url("images/background-gif.gif");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+
+.character{
+    width: 260px;
+    height: 460px;
+    object-fit: cover;
+    position: absolute;
+    /* right: 0; */
+    bottom: 10px;
+    /* rotate: 270deg; */
+}
+.character2{
+    width: 490px;
+    height: 460px;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    transform: scaleX(-1);
+}
